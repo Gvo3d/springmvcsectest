@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface ContactService{
     List<Contact> findAll();
-    Contact findByid(Long id);
+    Contact findById(Long id);
     Contact save(Contact contact);
 }
