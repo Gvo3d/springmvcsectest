@@ -12,7 +12,7 @@
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
         <init-param>
             <param-name>encoding</param-name>
-            <param-value>OTF-8</param-value>
+            <param-value>UTF-8</param-value>
         </init-param>
         <init-param>
             <param-name>forceEncoding</param-name>
@@ -25,7 +25,7 @@
     </filter>
     <filter>
         <filter-name>SpringOpenEntityManagerinViewFilter</filter-name>
-        <filter-class>org.springframework.orm.jpa.supportOpenEntityManagerinViewFilter</filter-class>
+        <filter-class>org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>CharacterEncodingFilter</filter-name>
@@ -40,7 +40,7 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
     <listener>
-        <listener-class>org.springframework.web.context.CotextLoaderListener</listener-class>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     <servlet>
         <servlet-name>appServlet</servlet-name>
