@@ -7,5 +7,5 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
     <import resource="datasource-tx-jpa.xml"/>
-    <context:component-scan base-package="com.apress.prospring4.chl6"/>
+    <context:component-scan base-package="com.apress.prospring4.ch16"/>
 </beans>
