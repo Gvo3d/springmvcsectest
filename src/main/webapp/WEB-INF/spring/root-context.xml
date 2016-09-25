@@ -6,6 +6,8 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
-    <import resource="datasource-tx-jpa.xml"/>
+
+    <import resource="data.xml"/>
+
     <context:component-scan base-package="com.apress.prospring4.ch16"/>
 </beans>

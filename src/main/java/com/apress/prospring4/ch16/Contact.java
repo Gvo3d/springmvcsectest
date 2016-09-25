@@ -11,7 +11,7 @@ import java.io.Serializable;
 import static javax.persistence.GenerationType.IDENTITY;
 
 @Entity
-@Table(name = "contact")
+@Table(name = "CONTACT")
 public class Contact implements Serializable {
     private Long id;
     private int version;
